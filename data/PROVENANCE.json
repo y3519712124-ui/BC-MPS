@@ -1,0 +1,25 @@
+{
+  "source_url": "https://github.com/GatorSense/MUUFLGulfport/blob/master/MUUFLGulfportSceneLabels/muufl_gulfport_campus_1_hsi_220_label.mat",
+  "source_sha256": "69420a72866dff4a858ae503e6e2981af46f406a4ad8f4dd642efa43feb59edc",
+  "prepared_sha256": "13a8f782bf8451753bd8d1a07f76ed733a5afb9d60412a56cfba22042077c537",
+  "hsi_shape": [
+    325,
+    220,
+    64
+  ],
+  "lidar_channel": "first-return DEM, band 0; intensity and last return excluded",
+  "label_counts": [
+    23246,
+    4270,
+    6882,
+    1826,
+    6687,
+    466,
+    2233,
+    6240,
+    1385,
+    183,
+    269
+  ],
+  "label_background": -1
+}

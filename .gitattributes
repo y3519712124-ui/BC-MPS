@@ -1,0 +1,5 @@
+# Preserve archived source and release-checksum bytes across operating systems.
+* -text
+*.pt binary
+*.png binary
+*.pdf binary

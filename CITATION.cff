@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the accompanying implementation."
+type: software
+title: "BC-MPS: Block-Conformal Multimodal Prediction Sets"
+version: 0.1.0
+date-released: 2026-10-19
+url: "https://github.com/y3519712124-ui/BC-MPS"
+repository-code: "https://github.com/y3519712124-ui/BC-MPS"
+license: MIT
+authors:
+  - family-names: Li
+    given-names: Wei
+  - family-names: Yu
+    given-names: Junjie
+  - family-names: He
+    given-names: Yupeng
+  - family-names: Wen
+    given-names: Chuangxin
+  - family-names: Wang
+    given-names: Xiaohua
+  - family-names: Hu
+    given-names: Zhou
+  - family-names: Huang
+    given-names: Dan

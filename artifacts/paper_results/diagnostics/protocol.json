@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-10-11T03:56:09.635583+00:00",
+  "alpha_grid": [
+    0.025,
+    0.05,
+    0.075,
+    0.1,
+    0.125,
+    0.15,
+    0.175,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "beta": 0.75,
+  "methods": [
+    "pointwise_global",
+    "bc_mps",
+    "sacp_global",
+    "sacp_tile_diagnostic"
+  ],
+  "primary_alpha": 0.1,
+  "lambda": 0.5,
+  "k": 1,
+  "neighborhood": "8",
+  "sensitivity": [
+    {
+      "k": 1,
+      "neighborhood": "4"
+    },
+    {
+      "k": 2,
+      "neighborhood": "8"
+    }
+  ],
+  "sources": [
+    {
+      "split_seed": 20261031,
+      "seed": 0,
+      "arrays": "runs\\fixed_budget_calibration_v2\\muufl_split20261031_s0_n0.40_fixed30\\probabilities.npz",
+      "arrays_sha256": "c5d1e02788b8a0dc968d6a0cdcce6b58c3133fcc096e83dc26a5c9ac251e1c82",
+      "checkpoint_sha256": "40b3ce24dfe2b84fc731e061ba892ed2909872c3a559279df78ea5f03117d59d"
+    },
+    {
+      "split_seed": 20261031,
+      "seed": 1,
+      "arrays": "runs\\fixed_budget_calibration_v2\\muufl_split20261031_s1_n0.40_fixed30\\probabilities.npz",
+      "arrays_sha256": "675a48f52d9a227d4a1dee07a85e18485b452621b57533b1ee21ea3d1df7d1e6",
+      "checkpoint_sha256": "c85f14b9c67bf8a7febe0eb24ab0861fe19cf12acb29239fa7674fcd0723943c"
+    },
+    {
+      "split_seed": 20261031,
+      "seed": 2,
+      "arrays": "runs\\fixed_budget_calibration_v2\\muufl_split20261031_s2_n0.40_fixed30\\probabilities.npz",
+      "arrays_sha256": "613f66810f3f5ad99ad8ff673ea5d67f7744b3066521f78bba01916d0301f06a",
+      "checkpoint_sha256": "cff64e8d8d8a3012f385784f8fc1c2f971afd16ee513c52592fa6326bed2bdc2"
+    },
+    {
+      "split_seed": 20261054,
+      "seed": 0,
+      "arrays": "runs\\fixed_budget_calibration_v2\\muufl_split20261054_s0_n0.40_fixed30\\probabilities.npz",
+      "arrays_sha256": "858f5dca3f038a9af366b3085919398cc07d1fe9f6a7bd781b6d0e95e3c81a10",
+      "checkpoint_sha256": "8a798322da7ad3c9c479199333f2a58a5db3bef7cf88034eb1e141051212d612"
+    },
+    {
+      "split_seed": 20261054,
+      "seed": 1,
+      "arrays": "runs\\fixed_budget_calibration_v2\\muufl_split20261054_s1_n0.40_fixed30\\probabilities.npz",
+      "arrays_sha256": "dcec8acc0e147be86e3abe18fb26fae45689870f2963f9e4a9f3019268523e8b",
+      "checkpoint_sha256": "a6b12c26a4bf9f9321ddcaeeb83f30f4186f57dc8aeb7efb2fc76832922cdf8e"
+    },
+    {
+      "split_seed": 20261054,
+      "seed": 2,
+      "arrays": "runs\\fixed_budget_calibration_v2\\muufl_split20261054_s2_n0.40_fixed30\\probabilities.npz",
+      "arrays_sha256": "6c863ad32194d881e6f8365298bcebd4147f6d886c06eb88aa64f312461d1419",
+      "checkpoint_sha256": "61cec7fb8feea9839852bdb8a6e4137b28993860d4b4af615ee2f570da51f609"
+    },
+    {
+      "split_seed": 20261059,
+      "seed": 0,
+      "arrays": "runs\\fixed_budget_calibration_v2\\muufl_split20261059_s0_n0.40_fixed30\\probabilities.npz",
+      "arrays_sha256": "77cb5ef51df87e3e00e044133ea1862b397af66a88af1971cd5127dd65503740",
+      "checkpoint_sha256": "177c5c35c9723a7c58df711f63aa45bee219e3485202f588c667669dff5aa43e"
+    },
+    {
+      "split_seed": 20261059,
+      "seed": 1,
+      "arrays": "runs\\fixed_budget_calibration_v2\\muufl_split20261059_s1_n0.40_fixed30\\probabilities.npz",
+      "arrays_sha256": "6080bd30bb087c7354642d35769daf6b9e281630bb99100046df9557df172709",
+      "checkpoint_sha256": "df243d69f5a930b99c199641150ff410dad871f2e94a052cd8759d59beabb3a4"
+    },
+    {
+      "split_seed": 20261059,
+      "seed": 2,
+      "arrays": "runs\\fixed_budget_calibration_v2\\muufl_split20261059_s2_n0.40_fixed30\\probabilities.npz",
+      "arrays_sha256": "fcb8147462c98bb0e6af2a7b2221a66d30697a665a5ee1c3e8759c32681c8234",
+      "checkpoint_sha256": "94a04a922358a0b09d20a3c966f027ed2c540894aee36ec3938f6db38a6c182c"
+    }
+  ],
+  "script_sha256": "7f8d89883eb4852a8ab15b5cb9453f9dc6770869481f5585ce87e85d71e4157b",
+  "purpose": "complete post-training diagnostics; no operating-point selection"
+}

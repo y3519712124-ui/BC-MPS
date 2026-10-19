@@ -1,0 +1,14 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2",
+    "pymupdf": "1.28.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 595.97, 8188 MiB",
+  "precision": "Float32 tensors; no AMP; CUDA matmul TF32 disabled; cuDNN convolution retains default TF32 permission",
+  "installation": "Official cu128 wheel verified by SHA256; isolated .venv_gpu with inherited scientific Python packages"
+}

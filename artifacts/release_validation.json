@@ -1,0 +1,36 @@
+{
+  "validated_utc_date": "2026-10-19",
+  "original_data_preparation_sha256_matched": true,
+  "checkpoint_evaluation": {
+    "runs": 9,
+    "device": "cuda",
+    "data_sha256": "13a8f782bf8451753bd8d1a07f76ed733a5afb9d60412a56cfba22042077c537",
+    "matches_recorded_metrics_at_1e_minus_10": true,
+    "differences": [],
+    "note": "Different devices or numerical libraries can change floating-point thresholds."
+  },
+  "diagnostics_comparison": {
+    "run_metrics.csv": {
+      "rows": 360,
+      "maximum_absolute_numeric_error": 0.0
+    },
+    "summary.csv": {
+      "rows": 40,
+      "maximum_absolute_numeric_error": 0.0
+    },
+    "sensitivity_runs.csv": {
+      "rows": 18,
+      "maximum_absolute_numeric_error": 0.0
+    },
+    "sensitivity_summary.csv": {
+      "rows": 2,
+      "maximum_absolute_numeric_error": 0.0
+    }
+  },
+  "scientific_semantics_tests": {
+    "passed": 5
+  },
+  "fresh_training_during_release_assembly": false,
+  "raw_imagery_redistributed": false,
+  "manuscript_redistributed": false
+}

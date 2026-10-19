@@ -1,0 +1,32 @@
+{
+  "scene": "MUUFL Gulfport Campus 1",
+  "shape": [
+    325,
+    220,
+    64
+  ],
+  "tile_size": 64,
+  "patch_size": 11,
+  "splits": [
+    20261031,
+    20261054,
+    20261059
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "epochs": 30,
+  "training_label_replacement_probability": 0.4,
+  "batch_size": 256,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "alpha": 0.1,
+  "beta": 0.75,
+  "checkpoint_selection": "final epoch only",
+  "primary_probabilities": "fused",
+  "nonempty_calibration_tiles_per_run": 3,
+  "all_allocated_calibration_tiles": 4
+}

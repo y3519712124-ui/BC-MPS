@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-11T03:46:05.319751+00:00",
+  "epochs": 30,
+  "selection": "fixed final epoch, no validation-based model choice",
+  "splits": [
+    20261031,
+    20261054,
+    20261059
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "alpha": 0.1,
+  "beta": 0.75,
+  "calibration": "all allocated validation centers; assert three nonempty tiles",
+  "purpose": "controlled retraining; supersedes exploratory v1 mixed tile counts",
+  "training_noise": 0.4,
+  "data_sha256": "13a8f782bf8451753bd8d1a07f76ed733a5afb9d60412a56cfba22042077c537",
+  "source_hashes": {
+    "adaptive_reliability_experiments.py": "5fae7460398dfa2ac34f296b16e37d364e85681982e8ffa57581a5dfc18198d2",
+    "block_conformal_multimodal.py": "5cd39cedd33649daa80de0bad6cdfbc1c7f6d9b642138bea0e42d77cc83b11e9",
+    "fixed_budget_calibration.py": "9213bb237cc9d4bada4ae3ba4aa3535891067890a1f2d0aa685ca66f8a3388c1",
+    "matched_sacp_posthoc.py": "cad02c8f35d417541f158b1840433c1f1d8e6e368d43be0ea4ac87106182f73d",
+    "protocol.py": "53eb5b1766ef9c2ec78fa05b4d34cd94b9de966410eb2d2b840a86fb1d4bc708",
+    "train.py": "a36d633237bebe91ce2fff75aaa9527ef0a0863ff94cad4c4e4a1978a90b59a5"
+  },
+  "trainer_sha256": "9213bb237cc9d4bada4ae3ba4aa3535891067890a1f2d0aa685ca66f8a3388c1",
+  "caveat": "Within-scene, retrospectively motivated control; no new-scene theorem."
+}

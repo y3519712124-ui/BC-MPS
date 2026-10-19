@@ -1,0 +1,4 @@
+# Tested scientific stack. For CUDA, install the matching PyTorch wheel first.
+numpy==2.4.6
+scipy==1.17.1
+torch==2.7.1
